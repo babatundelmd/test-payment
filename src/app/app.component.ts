@@ -4,7 +4,7 @@ import { PaymentComponent } from './payment/payment.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, PaymentComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
