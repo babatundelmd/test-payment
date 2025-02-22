@@ -19,7 +19,7 @@ export class PaymentComponent {
       if (this.status === 'approved') {
         console.log('go here');
         
-        window.location.href = `illtip://serviceDetails?serviceId=${id}&status=approved`;
+        window.location.href = `illtip://serviceDetails?serviceId=${id}&status=approved&utm_source=app&utm_medium=deep_link`;
       }
     });
   }
