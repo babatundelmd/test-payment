@@ -17,6 +17,8 @@ export class PaymentComponent {
       this.status = params['status'] || '';
       const id = params['serviceId'] || '';
       if (this.status === 'approved') {
+        console.log('go here');
+        
         window.location.href = `illtip://serviceDetails?serviceId=${id}&status=approved`;
       }
     });
